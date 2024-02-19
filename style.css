@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set to full viewport height for centering */
+
+}
+.box {
+    font-size: 2em; /* Adjust the font size as needed */
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
